@@ -12,7 +12,7 @@ const Home: React.FC = () => {
         <div className="container mx-auto flex justify-between items-center">
           {/* Logo placeholder */}
           <div>
-            <Image src="/images/logo.png" alt="Logo" width={160} height={160} />
+            <Image src="/images/logo.png" alt="Logo" width={200} height={160} />
           </div>
           <div className="text-gray-900">
             <a href="#product" className="mx-4">Product</a>
