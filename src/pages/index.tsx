@@ -1,6 +1,6 @@
 import React from 'react';
-import 'tailwindcss/tailwind.css';
 import Image from 'next/image';
+import 'tailwindcss/tailwind.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDatabase, faBriefcase, faChartLine, faBullhorn, faSpider, faCogs, faFileCsv, faSearch, faLaptopCode, faCode,faShareAlt,faCodeBranch,faFileImport, faGlobe, faFileExport, faUserCog,faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
@@ -9,15 +9,10 @@ const Home: React.FC = () => {
     <div className="font-sans">
       {/* Navigation header */}
       <nav className="bg-white py-4 px-8 shadow-md">
-        <div className="container mx-auto flex justify-between items-center">
+        <div className="container mx-auto flex justify-center items-center">
           {/* Logo placeholder */}
           <div>
-            <Image src="/images/logo.png" alt="Logo" width={200} height={160} />
-          </div>
-          <div className="text-gray-900">
-            <a href="#product" className="mx-4">Product</a>
-            <a href="#features" className="mx-4">Features</a>
-            <a href="#who-do-we-serve" className="mx-4">Who is it for</a>
+            <Image src="/images/logo.png" alt="Logo" width={300} height={180} />
           </div>
         </div>
       </nav>
@@ -36,10 +31,11 @@ const Home: React.FC = () => {
         <button className="bg-blue-600 text-white py-2 px-6 rounded hover:bg-blue-700 transition duration-300">Get Started</button>
       </a>
     </div>
-    <div className="w-full md:w-1/2 flex items-center justify-center">
-      {/* Add an animation or an image here */}
-      <Image src="/images/animation.gif" alt="ETL Animation" width={500} height={400} className="mx-auto"/>
-    </div>
+    <div className="w-full md:w-1/2 fl">
+  {/* Add an animation or an image here */}
+  <Image src="/images/animation.gif" alt="ETL Animation" width={500} height={400} className="mx-auto mt-[-10]" />
+</div>
+
   </div>
 </header>
 
