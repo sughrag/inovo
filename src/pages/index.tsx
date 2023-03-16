@@ -1,5 +1,6 @@
 import React from 'react';
 import 'tailwindcss/tailwind.css';
+import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDatabase, faBriefcase, faChartLine, faBullhorn, faSpider, faCogs, faFileCsv, faSearch, faLaptopCode, faCode,faShareAlt,faCodeBranch,faFileImport, faGlobe, faFileExport, faUserCog,faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
@@ -11,7 +12,7 @@ const Home: React.FC = () => {
         <div className="container mx-auto flex justify-between items-center">
           {/* Logo placeholder */}
           <div>
-            <img src="/images/logo.png" alt="Logo" className="h-8" />
+            <Image src="/images/logo.png" alt="Logo" width={64} height={64} />
           </div>
           <div className="text-gray-900">
             <a href="#product" className="mx-4">Product</a>
@@ -37,11 +38,7 @@ const Home: React.FC = () => {
     </div>
     <div className="w-full md:w-1/2 flex items-center justify-center">
       {/* Add an animation or an image here */}
-      <img
-        src="/images/animation.gif"
-        alt="ETL Animation"
-        className="w-1/2 md:w-3/4 h-auto md:h-64 mx-auto"
-      />
+      <Image src="/images/animation.gif" alt="ETL Animation" width={500} height={400} className="mx-auto"/>
     </div>
   </div>
 </header>
