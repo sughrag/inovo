@@ -210,7 +210,7 @@ const Home: React.FC = () => {
   <button className="bg-blue-600 text-white py-2 px-6 rounded hover:bg-blue-700 transition duration-300">Contact Us</button>
 </a>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };
