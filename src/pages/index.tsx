@@ -24,7 +24,7 @@ const Home: React.FC = () => {
         Extract Unstructured Data From Any Source in Minutes
       </h1>
       <p className="text-xl mb-6 text-gray-700">
-        We leverage AI to automate data ingestion and transformation so you can get insights faster
+        Leverage AI to automate data ingestion and transformation so you can get insights faster
       </p>
       {/* Add a call-to-action button if needed */}
       <a href="https://app.fateh.ai/" target="_blank" rel="noopener noreferrer">
