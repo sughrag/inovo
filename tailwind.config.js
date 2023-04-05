@@ -12,6 +12,7 @@ module.exports = {
         'primary': '#1F2937',
         'secondary': '#4B5563',
         'accent': '#0EA5E9',
+        'purplemove': '#10316b',
       },
     },
   },
